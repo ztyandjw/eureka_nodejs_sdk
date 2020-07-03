@@ -1,0 +1,14 @@
+{
+  "name": "node_discover_sdk",
+  "version": "0.0.1",
+  "description": "discover module for nodejs",
+  "main": "discoverClient.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tim",
+  "license": "ISC"
+}
