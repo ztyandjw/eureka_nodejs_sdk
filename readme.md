@@ -1,6 +1,7 @@
 eureka的node客户端
 
 
+
 ### 配置
 
 修改config.js中的参数配置
@@ -76,12 +77,12 @@ var servers = discoverClient.chooseServers('node-provider1')
 	console.log('选择服务[列表]')
 	console.log('实例名称: node-provider1' +  '实例数量: ' + servers.length)
 	for(var i = 0; i <servers.length; i++) {
-		
-		console.log('应用名称: ' + servers[i].appName)
-		console.log('实例名称: ' + servers[i].instanceId)
-		console.log('ip地址: ' + servers[i].ipAddress)
-		console.log('服务端口: ' + servers[i].port)
-		console.log('服务地址: ' + servers[i].url)
+	console.log('应用名称: ' + servers[i].appName)
+	console.log('实例名称: ' + servers[i].instanceId)
+	console.log('ip地址: ' + servers[i].ipAddress)
+	console.log('服务端口: ' + servers[i].port)
+	console.log('服务地址: ' + servers[i].url)
 
 }
 ```
+
